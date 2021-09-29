@@ -59,7 +59,7 @@ function findSpotForCol(x) {
 //   let block = document.getElementById('${y}-${x}')
     for (let y = 5; y >= 0; y--){
         if (board[y][x] === undefined){
-            board[y][x] = 1;
+            // board[y][x] = 1;
             return y;
         }
     }

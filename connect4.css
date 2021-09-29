@@ -1,26 +1,28 @@
 /* game board table */
 
 #board td {
-  width: 50px;
-  height: 50px;
-  border: solid 1px #666;
+  width: 60px;
+  height: 60px;
+  border: solid 1px rgb(4, 89, 92);
 }
 
 /* pieces are div within game table cells: draw as colored circles */
 
 .dot1 {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: rgb(9, 48, 156);
     border-radius: 50%;
+    margin: 0px 0px 0px 10px;
  
   }
 
   .dot2 {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: rgb(175, 11, 11);
     border-radius: 50%;
+    margin: 0px 0px 0px 10px;
   }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
