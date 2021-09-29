@@ -26,3 +26,19 @@
 #column-top td:hover {
   background-color: gold;
 }
+
+
+.dot1 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(9, 48, 156);
+    border-radius: 50%;
+ 
+  }
+
+  .dot2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(175, 11, 11);
+    border-radius: 50%;
+  }
