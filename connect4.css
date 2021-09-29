@@ -45,8 +45,17 @@ h1 {
     margin: 0px 0px 0px 10px;
   }
 
-  p {
+  @keyframes bounce {
+
+    0%   { transform: translateY(-50px); }
+    35%  { transform: translateY(0); }
+    70% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+
+p {
     animation-name: bounce;
+    animation-duration: 2s;
   }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
